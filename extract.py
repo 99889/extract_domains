@@ -1,6 +1,6 @@
 from urllib.parse import urlparse, urljoin
 
-def extract_domain_and_company_links(url):
+def extract_domain(url):
     
     parsed_url = urlparse(url)
 
